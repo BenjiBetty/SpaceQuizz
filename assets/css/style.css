@@ -1,0 +1,51 @@
+body {
+    background-color: #D02B48;
+    color: white;
+}
+
+.container {
+    width: 50%;
+}
+
+.row.question {
+    background-color: #D02B48;
+    height: 100px;
+}
+
+.row.question p {
+    margin: auto;
+}
+
+.col p {
+    margin: auto;
+}
+
+.col {
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    background-color: #D02B48;
+}
+
+
+/* ----------BOUTONS---------- */
+
+.buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-primary,
+.btn-secondary {
+    background: none;
+    width: 150px;
+    border-color: white;
+}
+
+.btn-secondary:hover,
+.btn-primary:hover {
+    background-color: white;
+    color: #D02B48;
+    border-color: white;
+}

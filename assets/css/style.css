@@ -14,6 +14,8 @@ body {
 
 .row.question p {
     margin: auto;
+    text-transform: uppercase;
+    font-size: 0.8em;
 }
 
 .col p {

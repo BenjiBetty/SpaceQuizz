@@ -1,15 +1,24 @@
 body {
-    background-color: #D02B48;
+    background-image: url("../img/sky.jpg");
+    background-size: cover;
     color: white;
 }
 
 .container {
-    width: 50%;
+    width: 80%;
+    margin-top: 2em;
+}
+
+h1 {
+    font-family: 'Dorsa', sans-serif;
+    font-size: 6em;
+    letter-spacing: 0.2em;
 }
 
 .row.question {
-    background-color: #D02B48;
+    background-color: rgba(13, 5, 5, 0.50);
     height: 100px;
+    border-bottom: 1px solid white;
 }
 
 .row.question p {
@@ -19,15 +28,12 @@ body {
 }
 
 .col p {
-    margin: auto;
+    margin-top: 1em;
 }
 
 .col {
-    border: 1px solid white;
-    border-radius: 10px;
-    height: 50px;
     text-align: center;
-    background-color: #D02B48;
+    background-color: rgba(13, 5, 5, 0.50);
 }
 
 
@@ -40,14 +46,21 @@ body {
 
 .btn-primary,
 .btn-secondary {
-    background: none;
-    width: 150px;
-    border-color: white;
+    background-color: rgba(13, 5, 5, 0.50);
+    width: 200px;
+    border: none;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-family: 'Dorsa', sans-serif;
+    letter-spacing: 0.2em;
+    font-size: 2.2em;
+    text-align: center;
 }
 
 .btn-secondary:hover,
 .btn-primary:hover {
     background-color: white;
-    color: #D02B48;
+    color: rgba(13, 5, 5, 0.50);
     border-color: white;
+    border-radius: 0px;
 }
